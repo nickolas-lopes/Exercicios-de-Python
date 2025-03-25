@@ -1,0 +1,10 @@
+c, quant, preco = input().split()
+c = int(c)
+quant = int(quant)
+preco = float(preco)
+c2, quant2, preco2 = input().split()
+c2 = int(c2)
+quant2 = int(quant2)
+preco2 = float(preco2)
+total = quant * preco + quant2 * preco2 
+print(f"VALOR A PAGAR: R$ {total:.2f}")
